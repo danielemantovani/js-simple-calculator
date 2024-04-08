@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .container{
@@ -16,6 +17,7 @@
     margin: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    background: linear-gradient(270deg, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
 }
 
 .schermo{
@@ -23,10 +25,10 @@
     height: 80px;
     background-color: black;
     color: rgba(9, 210, 151, 1);
-    font-family: "seven segment";
     font-size: 40px;
     text-align: right;
     padding: 20px;
+    font-family: 'Seven Segment', sans-serif;
 }
 
 
@@ -38,30 +40,35 @@
     border-bottom-right-radius: 20px;
     display: flex;
     padding: 10px;
+    background: linear-gradient(270deg, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
 
 }
 
 .tasto{
-    width: 50px;
-    height: 40px;
-    background-color: rgb(187 187 187);
+    width: 59px;
+    height: 55px;
     border-radius: 10px;
     margin-right: 15px;
     margin-bottom: 10px;
+    font-family: "Michroma", sans-serif;
+    cursor: pointer;
+    background-color: rgba(220,220,220);
 }
 
 .command {
     width: 50px;
-    height: 35px;
+    height: 40px;
     background-color: rgb(187 187 187);
     border-radius: 10px;
     padding: 5px 10px;
+    font-family: "Michroma", sans-serif;
+    cursor: pointer;
 }
 
 .tastierino-numerico{
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
 }
 
 .zero{
@@ -72,11 +79,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    width: 30%;
+    width: 20%;
 }
 
-.c, .uguale{
+.c{
     background-color: orange;
+}
+
+.tasto-uguale {
+    height: 55px;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-family: "Michroma", sans-serif;
+    cursor: pointer;
+    background-color: orange;
+    flex-grow: 2;
 }
 
 .piu, .meno, .diviso, .per{
