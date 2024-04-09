@@ -82,8 +82,14 @@
     width: 20%;
 }
 
-.c{
+.command-c{
     background-color: orange;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: "Michroma", sans-serif;
+    cursor: pointer;
 }
 
 .tasto-uguale {
